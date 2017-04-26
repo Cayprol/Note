@@ -47,7 +47,7 @@ Syntax Rules:
 				tonymacx86.com
 
 	g. Date:
-		1. Date formats that works independently, no escape built in.
+		1. Date formatting that works independently, no escape built in.
 		2. Eg: 	
 			</>: 1/9/17, 1/09/17, 1/9/2017, 1/09/2017, 
 				 01/9/17, 01/09/17, 01/9/2017, 01/09/2017
