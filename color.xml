@@ -1,0 +1,214 @@
+<!-- Copy below to your current active theme's .tmtheme file -->
+        <dict>
+            <key>name</key>
+            <string>Note: Arrows</string>
+            <key>scope</key>
+            <string>arrow</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ed723d</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Special Tag 1</string>
+            <key>scope</key>
+            <string>tag.symbol</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#c17878</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Special Tag 1 Char</string>
+            <key>scope</key>
+            <string>tag.symbol.char</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e85c5c</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Coloned Headers</string>
+            <key>scope</key>
+            <string>header.colon</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F2777A</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Coloned Headers ":"</string>
+            <key>scope</key>
+            <string>header.colon.symbol</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#db6f72</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Thorned Headers</string>
+            <key>scope</key>
+            <string>header.thorn</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#2adb27</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Thorned Headers Text</string>
+            <key>scope</key>
+            <string>header.thorn.text</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#b2f2b0</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Paragraph Delimiter "-"</string>
+            <key>scope</key>
+            <string>paragraph.delimiter.dash</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#527c6f</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Paragraph Delimiter "_"</string>
+            <key>scope</key>
+            <string>paragraph.delimiter.underscore</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#c3fc00</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Bullet Point Numeric</string>
+            <key>scope</key>
+            <string>bullet.point.numeric</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e1ea7e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Bullet Point a-z</string>
+            <key>scope</key>
+            <string>bullet.point.a-z</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a9ea7e</string>
+            </dict>
+        </dict> 
+        <dict>
+            <key>name</key>
+            <string>Note: Bullet Point A-Z</string>
+            <key>scope</key>
+            <string>bullet.point.A-Z</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#72dbb4</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: single Quote</string>
+            <key>scope</key>
+            <string>char.quoted.single</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9f8edb</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Single Quote Text</string>
+            <key>scope</key>
+            <string>char.quoted.single.text</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#b9a6fc</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: URL</string>
+            <key>scope</key>
+            <string>url.domain</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75d7ff</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: URL Protocol</string>
+            <key>scope</key>
+            <string>url.domain.protocol</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#61aece</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Date</string>
+            <key>scope</key>
+            <string>date</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#16a356</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Note: Date Symbol</string>
+            <key>scope</key>
+            <string>date.symbol</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#0d6b38</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+<!-- Copy above to your current active theme's .tmtheme file -->
