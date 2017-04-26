@@ -1,0 +1,83 @@
+%YAML 1.2
+---
+name: Note
+file_extensions: [note]
+scope: text.note
+
+contexts:
+  main:
+    - include: date
+    - include: special.tag
+    - include: bullet.point.az
+    - include: bullet.point.AZ
+
+    - match: '[^\t\n]+(:) '
+      push: header.colon
+      captures:
+        1: header.colon.symbol
+
+
+    - match: '>{3,} ([^\t\n<>]+) <{3,}'
+      scope: header.thorn
+      captures:
+        1: header.thorn.text
+
+    - match: '(<--|-->)'
+      scope: arrow
+
+    - match: '-{3,}[^\t\n]*-{3,}'
+      scope: paragraph.delimiter.dash
+  
+    - match: '_{5,}[^\t\n]*_{5,}'
+      scope: paragraph.delimiter.underscore
+
+    - match: '(\t|^)+\d+\.[ \t]'
+      scope: bullet.point.numeric
+    
+    - match: '"'
+      push: string
+
+    - match: '''{1}([^\s\n\t'']*)''{1}'
+      scope: char.quoted.single
+      captures:
+        1: char.quoted.single.text
+
+    - match: '((ftp://|https://|http://)?)(www\.)+[\w\-.@:%+~#?&/+=]{2,}\.[a-z]{2,6}\b([\w\-.@:%+~#?&/+=]*)'
+      scope: url.domain
+      captures:
+        1: url.domain.protocol
+
+  string:
+    - meta_scope: string.quoted.double
+    - match: \\.
+      scope: string
+    - match: '"'
+      pop: true
+
+  header.colon:
+    - meta_scope: header.colon
+    - match: \s
+      pop: true
+
+  date:
+    - match: '\d\d?([\-/\.])\d\d?(\1)\d{2,4}'
+      scope: date
+      captures:
+        1: date.symbol
+        2: date.symbol
+
+  special.tag:
+    - match: '<([^\w\s\t\n]{1})>'
+      scope: tag.symbol
+      captures:
+        1: tag.symbol.char
+
+  bullet.point.az:
+    - match: '(\t|^)+[a-z][\.:][ \t]'
+      scope: bullet.point.a-z
+
+  bullet.point.AZ:
+    - match: '(\t|^)+[A-Z][\.:][ \t]'
+      scope: bullet.point.A-Z
+
+  
