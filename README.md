@@ -5,7 +5,8 @@ ____________________________________________________________________
 
 >>>>> Package Contents <<<<<
 
-This package contains: 
+This package contains:  
+
 A. Syntax files: 
 	1. Note.sublime-syntax
 		a. This defines custom scopes for syntax highlighting. It requires modification to the active Color Scheme of Sublime Text.
